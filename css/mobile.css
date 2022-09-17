@@ -1,0 +1,23 @@
+@media screen and (max-width:800px) {
+
+    .mountain-img{
+        width: 100%;
+    }
+    .bottom-cloud{
+        bottom: 200px;
+        left: 60px;
+    }
+    .top-cloud{
+        right: 80px;
+    }
+    .intro{
+        width: 60%;
+    }
+    .skill-row{
+        width: 70%; 
+    }
+    .contact-message{
+        width: 40%;
+    }
+    
+}
