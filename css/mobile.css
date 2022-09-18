@@ -19,5 +19,14 @@
     .contact-message{
         width: 60%;
     }
+    .navmobile{
+        display: flex;
+    }
+    .header-container{
+        display: none;
+    }
+    .hamburger-menu{
+        display: flex;
+    }
     
 }

@@ -12,7 +12,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
+<header>
+  <nav class="navmobile">
+      <div class="hamburger-menu" onclick="Addclass()">
+          <div class="menu-bars"></div>
+      </div>
+
+      <div class="mobile-link-holder">
+        <ul>
+          <a  href=""><li class="mobile-links">HOME</li></a> 
+          <a  href=""><li class="mobile-links">HOBBIES</li></a>
+          <a  href=""><li class="mobile-links">DOWNLOAD CV</li></a> 
+        </ul>
+      </div>
+  </nav>
+  
+
+  <div class="header-container">
+    <img src="./css/images/avatar-modified.png" alt="">
+    <div class="link-holder">
+      <ul>
+        <a href=""><li>HOME</li></a> 
+        <a href=""><li>HOBBIES</li></a>
+        <a href=""><li>DOWNLOAD CV</li></a> 
+      </ul>
+    </div>
+  </div>
+
+</header>
     <div id="top-container">
         <img class="top-cloud" src="./css/images/cloud.png" alt="cloud-img">
         <h1>I'm Asha.</h1>
@@ -60,5 +90,9 @@
       </div>
       
     
+
+    <script src="main.js"></script>  
 </body>
+
+
 </html>
