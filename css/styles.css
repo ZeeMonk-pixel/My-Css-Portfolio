@@ -11,7 +11,8 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background: var(--gradient);
+    /* background: var(--gradient); */
+    background: var(--gradient), url(./images/codes.JPG);
 }
 /* 16px = 100% = 1em */
 p{
@@ -147,17 +148,24 @@ a:hover{
     text-align: left;
     z-index: 900;
 }
+.navmobile img{
+    width: 2.5rem;
+    position: fixed;
+    z-index: 1000;
+    left: 1.25rem;
+    top: 1.25rem;
+}
 .mobile-link-holder ul{
     list-style: none;
-    padding-top: 0.625rem;
+    padding-top: 1.25rem;
     padding-left: 0.625rem;
     /* border: 2px solid green; */
-    background: #e4f9f5;
+    background: var(--gradient), url(./images/codes.JPG);
 }
 .mobile-link-holder li{
     padding: 0.625rem;
 }
-.mobile-link-holder li:focus{
+.mobile-link-holder li:hover{
     color: #66bfbf;
     animation: pulse 4s infinite;
 }
@@ -166,7 +174,7 @@ a:hover{
 }
 
 #top-container{
-    background: var(--gradient), url(./images/codes.JPG);
+    
     /* background-color: #e4f9f5; */
     position: relative;
     padding-top: 6.25rem;
