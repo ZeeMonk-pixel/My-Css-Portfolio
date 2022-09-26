@@ -31,6 +31,8 @@
     .hamburger-menu{
         display: flex;
     }
-    
+    .navmobile img{
+        display: flex;
+    }
     
 }
