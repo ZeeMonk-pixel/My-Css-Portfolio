@@ -33,6 +33,7 @@
     }
     .navmobile img{
         display: flex;
+        opacity: 0.4;
     }
     
 }
