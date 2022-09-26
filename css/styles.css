@@ -1,3 +1,7 @@
+:root{
+    --gradient: linear-gradient(to right, rgba(36, 59, 85, 0.95), rgba(20, 30, 48, 0.85)); 
+    
+}
 /* *{
     margin: 0;
     padding: 0;
@@ -17,11 +21,11 @@ hr{
     border: dotted #eaf6f6 8px;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 6.25rem auto;
 }
 h1{
     color: #66bfbf;
-    margin: 50px auto 0;
+    margin: 3.125rem auto 0;
     font-family: 'Sacramento', cursive;
     font-size: 5.62rem;
 }
@@ -30,7 +34,11 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
+}
+h2 span{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
 }
 h3{
     color: #11999e;
@@ -39,7 +47,7 @@ h3{
 a{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
+    margin: 0.625rem 1.25rem;
     text-decoration: none;
 }
 a:hover{
@@ -52,11 +60,11 @@ a:hover{
     position: relative;
 }
 .header-container img{
-    width: 10%;
-    margin-left: 50px;
+    width: 2.5rem;
+    margin-left: 3.125rem;
     position: fixed;
     z-index: 1000;
-    top: 50px;
+    top: 3.125rem;
     /* display: none; */
 }
 .link-holder{
@@ -65,7 +73,7 @@ a:hover{
     z-index: 1000;
     width: 50%;
     margin-left: 40%;
-    top: 40px;
+    top: 2.5rem;
 }
 .link-holder ul{
     display: flex;
@@ -88,18 +96,18 @@ a:hover{
 
 .hamburger-menu{
     /* border: 3px solid black; */
-    height: 25px;
-    width: 25px;
+    height: 1.563rem;
+    width: 1.563rem;
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 20px;
-    top: 20px;
+    right: 1.25rem;
+    top: 1.25rem;
     z-index: 1000;
     display: none;
 }
 .menu-bars{
-    height: 2.5px;
+    height: 0.156rem;
     width: 100%;
     background: orangered;
     position: relative;
@@ -108,7 +116,7 @@ a:hover{
 }
 .menu-bars::before, .menu-bars::after{
     content: '';
-    height: 2.5px;
+    height: 0.156rem;
     width: 100%;
     background: orangered;
     position: absolute;
@@ -140,13 +148,13 @@ a:hover{
 }
 .mobile-link-holder ul{
     list-style: none;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 0.625rem;
+    padding-left: 0.625rem;
     /* border: 2px solid green; */
     background: #e4f9f5;
 }
 .mobile-link-holder li{
-    padding: 10px;
+    padding: 0.625rem;
 }
 .mobile-link-holder li:focus{
     color: #66bfbf;
@@ -157,12 +165,11 @@ a:hover{
 }
 
 #top-container{
-    background-color: #e4f9f5;
+    background: var(--gradient), url(./images/codes.JPG);
+    /* background-color: #e4f9f5; */
     position: relative;
-    padding-top: 100px;
-}
-.pro{
-    text-decoration: underline;
+    padding-top: 6.25rem;
+    /* opacity: 0.5; */
 }
 .intro{
     width: 40%;
@@ -170,46 +177,55 @@ a:hover{
 }
 .top-cloud{
     position: absolute;
-    right: 100px;
-    top: 100px;
+    right: 28.25rem;
+    top: 5.25rem;
+    opacity: 0.4;
+    width: 19.5rem;
+    height: 6.25rem;
 }
 .bottom-cloud{
     position: absolute;
-    left: 100px;
-    bottom: 300px;
+    left: 28.25rem;
+    bottom: 18.75rem;
+    opacity: 0.4;
+    width: 19.5rem;
+    height: 6.25rem;
+}
+.mountain-img{
+    opacity: 0.4;
 }
 #middle-container{
-    margin: 100px 0;
+    margin: 6.25rem 0;
 }
 
 .skill-row{
-   margin: 100px auto;
+   margin: 6.25rem auto;
    width: 40%;
    text-align: left;
 }
 .code-img{
     float: left;
     width: 25%;
-    padding-right: 30px;
+    padding-right: 1.875rem;
 }
 .chilli-img{
     float: right;
     width: 25%;
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 
 .contact-message{
     width: 40%;
-    margin: 40px auto 60px;
+    margin: 2.5rem auto 3.75rem;
 }
 #bottom-container{
     background-color: #66bfbf;
-    padding: 50px 0 20px;
+    padding: 3.125rem 0 1.25rem;
 }
 .copyright{
     color: #eaf6f6;
     font-size: 0.75rem;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 .btn {
     background: #11CDD4;
@@ -220,11 +236,11 @@ a:hover{
     background-image: linear-gradient(to bottom, #11CDD4, #11999E);
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    font-size: 1.25rem;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
     text-decoration: none;
   }
   
